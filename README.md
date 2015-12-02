@@ -3,6 +3,8 @@ Skeleton is a simple, responsive boilerplate to kickstart any responsive project
 
 Check out <http://getskeleton.com> for documentation and details.
 
+This is the [Algernon](http://algernon.roboticoverlords.org) version of Skeleton.
+
 ## Getting started
 
 There are a couple ways to download Skeleton:
@@ -16,10 +18,13 @@ The download includes Skeleton's CSS, Normalize CSS as a reset, a sample favicon
 
 ```
 Skeleton/
-├── index.html
+├── index.amber
+├── base.amber
 ├── css/
 │   ├── normalize.min.css
 │   └── skeleton.css
+├── gcss/
+│   └── style.gcss
 └── images/
     └── favicon.ico
 
@@ -31,6 +36,8 @@ Skeleton is lightweight and simple. It styles only raw HTML elements (with a few
 - Around 400 lines of CSS unminified and with comments
 - It's a starting point, not a UI framework
 - No compiling or installing...just vanilla CSS
+
+Algernons allows for rapid development cycles, where the page is updated in the browser when the file is saved in the editor, together with Amber and GCSS.
 
 
 ## Browser support
@@ -54,6 +61,8 @@ All parts of Skeleton are free to use and abuse under the [open-source MIT licen
 The following are extensions to Skeleton built by the community. They are not officially supported, but all have been tested and are compatible with v2.0 (exact release noted):
 - [Skeleton on LESS](https://github.com/whatsnewsaes/Skeleton-less): Skeleton built with LESS for easier replacement of grid, color, and media queries. (Last update was to match v2.0.1)
 - [Skeleton on Sass](https://github.com/whatsnewsaes/Skeleton-Sass): Skeleton built with Sass for easier replacement of grid, color, and media queries. (Last update was to match v2.0.1)
+- [Skeleton on Algernon](https://github.com/xyproto/Skeleton-Algernon): Skeleton for Algernon
+
 
 Have an extension you want to see here? Just shoot an email to hi@getskeleton.com with your extension!
 
