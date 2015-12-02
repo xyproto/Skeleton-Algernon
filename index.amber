@@ -1,0 +1,17 @@
+extends base
+
+block title
+  | Your page title here :)
+
+block append style
+  +style("gcss/style.gcss")
+
+block append meta
+  +keywords("foo bar")
+
+block contentTitle
+  h4 Basic Page
+
+block contentText
+  p This index.amber page is a placeholder for the page contents. It's just waiting for you to add some! If you need some help hit up the <a href="http://www.getskeleton.com/">Skeleton documentation</a> or <a href="http://algernon.roboticoverlords.org">Algernon documentation</a>.
+
