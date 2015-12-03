@@ -19,7 +19,7 @@ The download includes Skeleton's CSS, Normalize CSS as a reset, a sample favicon
 ```
 Skeleton/
 ├── index.amber
-├── base.amber
+├── layout.amber
 ├── css/
 │   ├── normalize.min.css
 │   └── skeleton.css
